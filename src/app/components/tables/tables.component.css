@@ -1,0 +1,28 @@
+#page1 {
+    max-width: 90%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#lista {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#paragrafi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#phonei{
+    color: #8db600;
+}
+
+.fa-facebook{
+    margin-right: 5px;
+}
+.fa-envelope {
+    margin-right: 5px;
+}
+.fa-phone {
+    margin-right: 5px;
+}

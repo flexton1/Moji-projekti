@@ -1,0 +1,37 @@
+<div id="carousel" class="container-fluid col-12">
+    
+    <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide>
+        <div class="wrapper">
+          <img [src]="images[0].src" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Bajkovi</h3>
+          <p> Za pogibju </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="wrapper">
+          <img [src]="images[1].src" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Kettlebell i ringrow</h3>
+          <p> Za rast </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="wrapper">
+          <img [src]="images[2].src"  alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Još kettlebellova</h3>
+          <p>Za jos vise rasta</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+    </div>
+
+    <router-outlet></router-outlet>
+    <router-outlet name="table1"></router-outlet>
+    <router-outlet name="pozadina"></router-outlet>
+<router-outlet name="futer"></router-outlet>

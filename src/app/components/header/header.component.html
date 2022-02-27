@@ -1,0 +1,41 @@
+<header class="header mr-0 ml-0">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+
+    <nav class="navbar navbar-light bg-light mr-0 ml-0">
+  <a class="navbar-brand" href="zvijer.ba">
+    <img src="assets/img/file.png" width="200" height="100" alt="">
+  </a>
+</nav>
+    <button class="navbar-toggler" (click)="toggleNavbar()" (click)="isNavbarOpen = !isNavbarOpen" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div [ngbCollapse]="isNavbarOpen" class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }" id="navbarSupportedContent">
+
+	  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+		<li class="nav-item">
+          <a routerLinkActive="zvijer" class="nav-link active" aria-current="page" href="zvijer.ba">Početna <i class="fa fa-home" aria-hidden="true"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/postanizvijerba/photos" target="_blank">Galerija <i style="color:black" class="fa fa-picture-o" aria-hidden="true"></i></a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/postanizvijerba/" target="_blank">Facebook <i style="color:black" class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/zvijer.ba/" target="_blank">Instagram <i style="color:black" class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="https://www.tiktok.com/@zvijer.ba" target="_blank">Tiktok <i style="color:black" class='fab fa-tiktok'></i></a>
+        </li>
+
+      </ul>
+	  <p class="me-auto mb-2 mb-lg-0 d-flex mr-0 justify-content-right" style="font-size:30px; font-family: 'Times New Roman', Times, serif;"><i id="phone-icon" class="fa fa-phone" aria-hidden="true"></i> 061/545-655</p>
+
+    </div>
+  </div>
+</nav>
+
+
+	</header>

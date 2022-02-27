@@ -1,0 +1,28 @@
+img {
+   width: 100%;
+   height: 60vh;  
+   margin-top: 15px;
+   max-width: 90%;
+   align-content: center;
+}
+
+#imggg{
+   text-align: center;
+}
+
+#img2 {
+   display: none;
+   
+}
+   
+@media only screen and (max-width: 600px) {
+   #imggg{
+      display: none;
+   }
+   #img2{
+      display: contents;
+      width: 50%;
+      align-content: center;
+     
+   }
+ }

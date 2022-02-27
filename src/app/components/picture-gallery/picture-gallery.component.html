@@ -1,0 +1,16 @@
+    
+      
+    <div class="container-fluid">
+      <ul>    
+        <li *ngFor="let img of (allImages)">
+            <a href="{{img.url}}" target="_blank">         
+            <img src="{{img.url}}" class="img" width="240" height="170">       
+            </a> 
+        
+        </li>    
+      </ul>   
+      </div> 
+
+      <router-outlet name="futer2"></router-outlet>
+    
+   
