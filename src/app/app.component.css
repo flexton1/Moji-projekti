@@ -18,3 +18,8 @@ nav a.active {
 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+

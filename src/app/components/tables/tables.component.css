@@ -31,3 +31,8 @@ hr {
     max-width: 90%;
     margin: auto;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
